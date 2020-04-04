@@ -5,6 +5,7 @@ from handlers import (parse_input, EXIT_COMMANDS, AVAILABLE_COMMANDS)
 
 def run():
     print("Start running")  # печать "Start running"
+    print('***********************************************************')
     storage = {}  # Здесь создаем хранилище для значений (словарь)
     while True:  # Работаем пока есть флаг (запускаем цикл)
         cmd, args = parse_input()  # Обращаемся к функции, парсим ввод, нас интересует первое слово и остаток
